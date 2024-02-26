@@ -4,7 +4,8 @@ module.exports = {
         "es2021": true
     },
     "extends": [
-        "eslint:recommended",
+        "airbnb", 
+        "airbnb/hooks",
         "plugin:@typescript-eslint/recommended",
         "plugin:react/recommended"
     ],
